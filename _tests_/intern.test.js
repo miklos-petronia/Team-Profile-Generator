@@ -12,12 +12,12 @@ test('develops an Intern object', () => {
 test('retrives employee school', () => {
     const intern = new Intern('Alec', 90, 'alec@fakemail', 'Rotterdam School of Management');
 
-    expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
+    expect(intern.obtainSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });
 
 // retrives role from getRole()
 test('retrives role from employee', () => {
     const intern = new Intern('Alec', 90, 'alec@fakemail.com', 'Rotterdam School of Management');
 
-    expect(intern.getRole()).toEqual("Intern");
+    expect(intern.obtainRole()).toEqual("Intern");
 }); 

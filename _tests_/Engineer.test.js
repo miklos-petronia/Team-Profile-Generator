@@ -12,12 +12,12 @@ test('develops an Engineer object', () => {
 test('retrives engineer github value', () => {
     const engineer = new Engineer('Alec', 90, 'alec@fakemail', 'ibealec');
 
-    expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
+    expect(engineer.obtainGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
 });
 
 // retrives role from getRole() 
 test('retrives role of employee', () => {
     const engineer = new Engineer('Alec', 90, 'alec@fakemail', 'ibealec');
 
-    expect(engineer.getRole()).toEqual("Engineer");
+    expect(engineer.obtainRole()).toEqual("Engineer");
 });

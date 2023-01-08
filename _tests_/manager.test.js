@@ -9,8 +9,8 @@ test('developing an Manager object', () => {
 });
 
 // Retrives role from getRole()
-test('gets role of employee', () => {
+test('obtainss role of employee', () => {
     const manager = new Manager('Alec', 90, 'alec@fakemail.com');
 
-    expect(manager.getRole()).toEqual("Manager");
+    expect(manager.obtainRole()).toEqual("Manager");
 }); 
