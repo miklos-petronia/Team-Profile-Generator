@@ -42,4 +42,6 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
+## Screenshot
+![image](https://user-images.githubusercontent.com/113649566/211230651-5322abfc-7c9c-408b-9b82-56e83ed9ad6c.png)
 
