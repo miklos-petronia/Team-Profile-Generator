@@ -46,9 +46,9 @@ THEN I exit the application, and the HTML is generated
 
 ## Credits
 #### NodeJS: https://nodejs.org/en/
-# Bootstrap: https://getbootstrap.com/
-# Jest: https://www.npmjs.com/package/jest
-# Inquirer: https://www.npmjs.com/package/inquirer/v/8.2.4
+#### Bootstrap: https://getbootstrap.com/
+#### Jest: https://www.npmjs.com/package/jest
+#### Inquirer: https://www.npmjs.com/package/inquirer/v/8.2.4
 
 ## License
 This project used MIT Licesne
