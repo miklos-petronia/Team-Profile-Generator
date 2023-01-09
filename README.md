@@ -6,12 +6,12 @@ My task is to build a Node.js command-line application that takes in information
 The objective of project nr 10: Object-Oriented Programming: Team Profile Generator was to build a node.js application so that when information is inserted about employees develops an HTML webpage that illustrates end-user input information. The criteria for the application was to utilize the constructors to develop employees' objects. These were employees, managers, engineers, and interns. Additionally, jets and inquirers were used to make sure that the test passed. An illustration is provided below:
 
 ## Table of contents
-User story 
-Acceptance Criteria
-Screenshot
-Walktrough video
-Credits
-License
+#User story 
+#Acceptance Criteria
+#Screenshot
+#Walktrough video
+#Credits
+#License
 
 
 ## User Story
