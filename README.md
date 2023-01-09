@@ -45,3 +45,14 @@ THEN I exit the application, and the HTML is generated
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/113649566/211230651-5322abfc-7c9c-408b-9b82-56e83ed9ad6c.png)
 
+## Walktrough video
+https://drive.google.com/file/d/153stedHr1tvsPcA6y1Uaa5_k4YPcaIFr/view?usp=share_link
+
+## Credits
+NodeJS: https://nodejs.org/en/
+Bootstrap: https://getbootstrap.com/
+Jest: https://www.npmjs.com/package/jest
+Inquirer: https://www.npmjs.com/package/inquirer/v/8.2.4
+
+##License
+This project used MIT Licesne
