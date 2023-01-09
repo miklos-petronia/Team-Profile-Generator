@@ -1,12 +1,12 @@
 // Connection to the page development
-const generateHTML = require('./src/generateHTML');
+const developHTML = require('./src/developHTML');
 
 // The team description
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
-// Node units
+// Node section
 const fs = require('fs');
 const inquirer = require('inquirer');
 
@@ -212,7 +212,7 @@ const writeFile = data => {
 addManager()
     .then(addEmployee)
     .then(teamArray => {
-        return generateHTML(teamArray);
+        return developHTML(teamArray);
     })
     .then(pageHTML => {
         return writeFile(pageHTML);

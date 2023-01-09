@@ -37,7 +37,7 @@ const generateEngineer = function (engineer) {
 }
 
 // Develop the intern's card 
-const generateIntern = function (intern) {
+const developIntern = function (intern) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
@@ -56,7 +56,7 @@ const generateIntern = function (intern) {
 };
 
 // Advance the array to the page 
-generateHTML = (data) => {
+developHTML = (data) => {
 
     // array for cards 
     pageArray = [];
@@ -80,9 +80,9 @@ generateHTML = (data) => {
             pageArray.push(engineerCard);
         }
 
-        // calling intern activity 
+        // Calling intern activity 
         if (role === 'Intern') {
-            const internCard = generateIntern(employee);
+            const internCard = developIntern(employee);
 
             pageArray.push(internCard);
         }
@@ -92,14 +92,14 @@ generateHTML = (data) => {
     // Adjoin strings 
     const employeeCards = pageArray.join('')
 
-    // recovery to starting page
-    const generateTeam = generateTeamPage(employeeCards);
+    // Recovery to starting page
+    const generateTeam = teamPage(employeeCards);
     return generateTeam;
 
 }
 
 // Develop an html page 
-const generateTeamPage = function (employeeCards) {
+const teamPage = function (employeeCards) {
     return `
   <!DOCTYPE html>
   <html lang="en">
@@ -137,4 +137,4 @@ const generateTeamPage = function (employeeCards) {
 }
 
 // Exporting to indicator
-module.exports = generateHTML; 
+module.exports = developHTML; 
